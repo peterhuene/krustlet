@@ -15,7 +15,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0"
 async-trait = "0.1"
-kube = "0.32" 
+kube = { version = "0.32.0", git = "https://github.com/peterhuene/kube-rs", rev = "feat/token_refresh" }
 log = "0.4"
 wasmtime = "0.15"
 wasmtime-wasi = "0.15"
